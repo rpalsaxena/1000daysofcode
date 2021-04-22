@@ -51,7 +51,7 @@ def get_exdates():
 
     return (cex[-1]), (pex[-1])
 
-stk_symbols = ['INFY', 'RIL', 'HINDUNILVR', 'TCS', 'KOTAKBANK', 'BAJAJFINSV',\
+stk_symbols = ['INFY', 'RELIANCE', 'HINDUNILVR', 'TCS', 'KOTAKBANK', 'BAJAJFINSV',\
               'BAJFINANCE', 'LT', 'HDFCBANK', 'HDFC', 'TATAPOWER', 'INDUSINDBK', \
               'TATASTEEL']
 for symbol in tqdm.tqdm(stk_symbols):
